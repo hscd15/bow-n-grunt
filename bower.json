@@ -1,0 +1,25 @@
+{
+  "name": "bowerGruntTasks",
+  "authors": [
+    "Hassan Saad"
+  ],
+  "description": "Loading dependencies with bower,bootstrap 4.0 alpha \"Happy Birthday!!!\" for UI, and grunt for usual concat...",
+  "main": "[]",
+  "moduleType": [],
+  "keywords": [
+    "None"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/hscd15",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "4.0.0-alpha",
+    "font-awesome": "fontawesome#~4.5.0"
+  }
+}

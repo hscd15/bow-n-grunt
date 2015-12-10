@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    width: 100%;
+    background: #3299bb;
+}
+
+main {
+    width: 95%;
+    margin: 0 2.5%;
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.navBtn {
+    float: right;
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    background: #fff;
+    border: none;
+    box-shadow: 1px 1px 3px black;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+img {
+    width: 70%;
+    height: 13rem;
+    margin: 0 15%;
+}
+
+h1,
+h2,
+h3 {
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.midTxt h2 {
+    font-size: 4rem;
+    line-height: 0rem;
+}
+
+.row div {
+    margin-bottom: 1rem;
+}
+
+.dropdown {
+    margin-top: 0.75rem;
+}
+
+.dropdown-menu {
+    position: relative;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    box-shadow: 1px 1px 3px black;
+}
+
+.dropdown-menu li {
+    padding: 0.5rem;
+    font-size: 2rem;
+    text-align: center;
+    padding: 0.5rem;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.25rem;
+    text-align: left;
+    text-shadow: none;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5rem;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (min-width: 400px) {
+    .midTxt h2 {
+        line-height: 3rem;
+    }
+    img {
+        width: 80%;
+        height: 15rem;
+        margin: 0 10%;
+    }
+}
